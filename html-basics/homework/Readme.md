@@ -1,1 +1,0 @@
-This is a sample CV created using HTML as a lecture 1 homework.
