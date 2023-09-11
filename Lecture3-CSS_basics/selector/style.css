@@ -1,0 +1,37 @@
+/* Universal Selector: style all element */
+*{
+    font-style: italic;
+}
+/* Type Selector: style using tags */
+div{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+/* Class Selector: style using class multi to multi mapping */
+.big{
+    font-size: 20pt;
+}
+
+.bold{
+    font-weight: bold;
+}
+/* ID Selector: style using id one to one mapping */
+#two{
+    padding-left: 20pt;
+}
+
+#one{
+    background-color: aquamarine;
+}
+/* Attribute Selector: style using attributes */
+input[disabled]{
+    height: 50pt;
+}
+
+input[type = "text"]{
+    color: blue;
+    width: 300pt;
+}

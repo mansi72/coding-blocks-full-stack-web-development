@@ -1,0 +1,21 @@
+.box{
+    height: 80pt;
+    width: 80pt;
+    color: aquamarine;
+    background-color: black;
+}
+
+.box:hover{
+    color:antiquewhite;
+    background-color: blue;
+}
+
+.box:active{
+    height: 200pt;
+    width: 200pt;
+}
+
+input:focus{
+    height: 100pt;
+    width: 200pt;
+}

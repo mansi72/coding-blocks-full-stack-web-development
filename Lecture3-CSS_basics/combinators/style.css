@@ -1,0 +1,18 @@
+/* style all p just after h1  */
+h1+p{
+    color: red
+}
+/* style all p  after h1  */
+h1~p {
+    background-color: blue;
+}
+
+/* style all child p directly in section   */
+section >p {
+    font-weight: bold;
+}
+
+/* style all child/grandchild p  in section   */
+section p{
+    font-family: monospace;
+}
