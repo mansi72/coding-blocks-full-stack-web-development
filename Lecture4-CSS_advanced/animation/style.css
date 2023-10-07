@@ -1,0 +1,41 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 20px;
+
+    animation: mov 2s;
+    animation-iteration-count: infinite;
+}
+/* .one{
+    animation-timing-function: ease-in;
+}
+.two{
+    animation-timing-function: linear;
+}
+.three{
+    animation-timing-function: ease-out;
+} */
+@keyframes mov {
+    0%{
+
+    }
+
+    50%{
+        transform: translateY(400px) rotate(90deg);
+        background-color: violet;
+
+    }
+
+    100%{
+    }
+
+
+}

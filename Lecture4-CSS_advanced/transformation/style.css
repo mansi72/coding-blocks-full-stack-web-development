@@ -1,0 +1,24 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    margin: 10px;
+    text-align: center;
+    padding: 5%;
+}
+.one{
+    transform: skewX(-30deg) skewY(30deg) skewX(20deg) skewY(-20deg);
+}
+
+.two{
+    transform: skew(20deg) rotateZ(-20deg);
+}
+.three{
+    transform: rotate(45deg) ;
+}
+.four{
+    transform: scale(2,1);
+}
+.five{
+    transform: translate(50px,10px);
+}
