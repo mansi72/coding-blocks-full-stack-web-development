@@ -1,0 +1,19 @@
+*{
+    background-color: lightcyan;
+}
+
+div{
+    background-color: lightblue;
+}
+
+/* last one is final */
+.cl1{
+    background-color: lightgoldenrodyellow;
+}
+.cl1 {
+    background-color: lightgreen;
+}
+
+#id1{
+    background-color: lightseagreen;
+}

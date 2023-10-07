@@ -1,0 +1,26 @@
+para1{
+    font-size: 1em;  
+}
+/* 
+px :pixel sizing
+pt :point sizing legacy, typewriter size
+em : width of letter m in default brower size
+vh: ivh = 1/100 of height of window
+*/
+
+
+#para2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+/* fallback font values if 1st is not available then it goes to next */
+
+#para3{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#para4{
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
