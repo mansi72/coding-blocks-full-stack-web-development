@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+
+    /* wrap the item inside box */
+    flex-wrap: wrap;
+
+    flex-direction: row;
+
+    /* decides how item is placed in a row */
+    justify-content: space-around;
+
+    /* decides how rows are aligned */
+    align-content: space-evenly;
+    
+    /* align item perpendicularly in a row */
+    align-items: baseline;
+    
+
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border: solid black 1px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    /* display: inline-block; */
+}
+
+.long{
+    padding-bottom: 30px;
+}
+
+.short{
+    padding-top: 20px;
+}

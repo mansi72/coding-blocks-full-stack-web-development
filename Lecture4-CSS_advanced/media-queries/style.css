@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+@media (max-width: 900px){
+    .box{
+    background-color: yellow;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .box {
+        background-color: green;
+    }
+
+}
