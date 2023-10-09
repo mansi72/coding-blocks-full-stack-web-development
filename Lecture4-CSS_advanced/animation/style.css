@@ -10,7 +10,7 @@
     background-color: blueviolet;
     display: inline-block;
     margin: 20px;
-
+    transform: skew(30deg,30deg);
     animation: mov 2s;
     animation-iteration-count: infinite;
 }
@@ -29,9 +29,8 @@
     }
 
     50%{
-        transform: translateY(400px) rotate(90deg);
+        transform: translateY(400px) rotate(90deg) skew(30deg, 30deg);
         background-color: violet;
-
     }
 
     100%{
