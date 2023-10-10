@@ -1,0 +1,44 @@
+.container{
+    background-color: aqua;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+}
+.item{
+    background-color: antiquewhite;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.one > .one{
+    position: relative;
+    left: 100px;
+}
+
+/* absolute : move the element and next element takes its place
+relative: moves from it's originall position. next element doesn't takes its place
+
+*/
+/* .item.two{
+    position: absolute;
+    left: 100px
+} */
+
+.item.two{
+    position: sticky;
+    top: 10px
+} 
+
+
+
+.item.three{
+
+    position: fixed;
+    left: 100px;
+    /* z-index: -1; positions element in z axis used to send element behind or front */
+}
+
+.container:nth-child(2n){
+    background-color: aquamarine;
+}
