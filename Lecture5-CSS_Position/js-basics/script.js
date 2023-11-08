@@ -35,3 +35,23 @@ function hello(x) {
 }
 
 hello("mansi", "garg");
+
+// var,let,global
+
+let a = 10 // block scope
+var b = 20 // function scope
+c = 30 // global scope
+
+function hello2(x) {
+    if (x) {
+        let d = 40;
+        var e = 50;
+        c = 60
+        console.log("Inside: ",d);
+    }
+    // console.log("Outside:",d);//won't work
+    console.log("Outside:",e);//will work
+
+}
+hello2("2");
+console.log(c); //will work
